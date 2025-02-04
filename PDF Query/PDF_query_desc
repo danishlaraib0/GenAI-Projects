@@ -1,0 +1,5 @@
+This projedct is a basic GENAI Application that i made. I have used Deepseek V3 as my llm model and used BERT 
+embeddings to generate the embeddings of text which we are extracting and i am storing it in a database obviosly vector database. 
+CassandraDB (AstraDB) is a no sql based database which we are using through datastax.  so we are extracting text from PDF using 
+PyPDF2 and converting the text into small batches and genrating the embeddings and then storing it in the DB. Then we are 
+querying the llm based on our given data in pdf and it will answer based on out PDF.
